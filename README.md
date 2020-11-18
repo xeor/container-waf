@@ -13,6 +13,7 @@ Base commands/idea is taken from:
 * Download maxmind db if license key is in MAXMIND_LIC at start (will also set config to get it weekly)
   * Create an account an get a key on https://www.maxmind.com/
 * Configurable "to" server, defaults to "localhost:8080
+  * Use `NGINX_PROXY_PASS`
 * Mount a custom `/rules` if you have some extra rules, see `modsec_includes.conf` for order. Usually, it's fine to just use `/rules/PRE-*.conf`
   * /rules/PRE-*.conf - first
   * /rules/REQUEST-POST-*.conf - after all the REQUEST rules (useful for exclude rules)
