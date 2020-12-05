@@ -31,6 +31,7 @@ RUN apk update \
       --with-debug \
       --with-http_ssl_module \
       --with-compat \
+      --with-http_realip_module \
       --add-module=/build/ModSecurity-nginx \
       --without-http_access_module \
       --without-http_auth_basic_module \
