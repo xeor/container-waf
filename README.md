@@ -22,6 +22,7 @@ Base commands/idea is taken from:
 * Fixed some compile warnings
 * Starts up in block-mode with paranoia lever 4, secure as default, make sure to add exlude rules
 * Some minor tweaks to nginx config
+* Compile support for passing host-ip as well, so you can use geoblock even behind a reverse proxy
 
 ## tips
 
